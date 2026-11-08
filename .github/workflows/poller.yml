@@ -22,6 +22,7 @@ jobs:
       - name: Cek perintah Telegram
         env:
           MATERI_BOT_TOKEN: ${{ secrets.MATERI_BOT_TOKEN }}
+          ADHD_BOT_TOKEN: ${{ secrets.ADHD_BOT_TOKEN }}
           GH_PAT: ${{ secrets.GH_PAT }}
           SOURCE_REPO: ${{ secrets.SOURCE_REPO }}
           REPO_UMUM: ${{ secrets.REPO_UMUM }}
